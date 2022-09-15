@@ -1,0 +1,14 @@
+.div1 {
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    display:none;
+}
+
+
+@media (orientation: landscape){
+    .div1 {
+        background-color: aquamarine;
+        display:block;
+    }
+}
